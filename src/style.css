@@ -1,0 +1,134 @@
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    background-color: #0B1B24;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 140rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  .grid {
+    display: grid;
+    column-gap: 4.8rem;
+    row-gap: 10rem;
+  }
+  .grid--3-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 2rem 10rem;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: #020608;
+    opacity: 0.7;
+  }
+  .logo {
+    height: 8rem;
+  }
+  .nav__list {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    list-style:none;
+    gap: 3rem;
+  }
+  .nav__link:link, .nav__link:visited {
+    text-decoration:none;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+  }
+  .section-meals {
+    margin-top: 12rem;
+    padding: 4.8rem 0;
+  }
+  .header-meals {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3.2rem;
+    font-weight: 700;
+  }
+  .meal--item {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .img-container {
+    overflow: hidden;
+  }
+  .meal-img {
+    width: 100%;
+    transition: all 0.4s ease-out;
+  }
+  .meal-img:hover {
+    transform: scale(1.2);
+  }
+  .meal-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    align-items: center;
+  }
+  .meal-title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .meal-icon-container {
+    display: flex;
+    align-items: center;
+  }
+  .meal-likes {
+  margin-left: 2rem;
+  width: 6rem;
+  }
+  .meal-icon {
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+    transition: all 0.3s;
+  }
+  .meal-icon:hover {
+    color: #ED3029;
+    transform: scale(1.5);
+  }
+  .meal-btn:link, .meal-btn:visited{
+    color: #fff;
+    border: 2px solid #ED3029;
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 1.6rem 2.3rem;
+    width: 15rem;
+    text-align: center;
+    align-self: center;
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+  }
+  .copyright-text {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+  }
