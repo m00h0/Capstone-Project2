@@ -1,6 +1,6 @@
 const fetchDataBaseApi = async () => {
   const data = await fetch(
-    'https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood',
+    'https://www.themealdb.com/api/json/v1/1/search.php?f=f',
   )
     .then((res) => res.json())
     .then((data) => data)
