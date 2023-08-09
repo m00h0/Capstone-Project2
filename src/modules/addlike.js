@@ -4,7 +4,6 @@ const addLike = async (ele) => {
   )
     .then((res) => res.json())
     .then((data) => {
-      console.log(data);
       data.forEach((meal) => {
         if (parseInt(ele.getAttribute('data-id'), 10) === parseInt(meal.item_id, 10)) {
           const nbLike = ele.getElementsByClassName('meal-likes')[0];
@@ -12,9 +11,7 @@ const addLike = async (ele) => {
         }
       });
     })
-    .catch((err) => {
-      console.log(err);
-    });
+    .catch((err) => err);
 };
 
 addLike();
