@@ -1,10 +1,33 @@
 import './style.css';
 import {
-  fetchDataBaseApi, fetchDataInvolvementApi, addLike, display, like,
+  display,
+  addComment,
+  closePopup,
+  like,
+  showPopup,
 } from './modules/function.js';
 
-display();
-like();
-fetchDataBaseApi();
-fetchDataInvolvementApi();
-addLike();
+document.addEventListener('DOMContentLoaded', async () => {
+  await display();
+});
+
+document.querySelector('.add-comments').addEventListener('submit', (e) => {
+  e.preventDefault();
+  const form = document.querySelector('.add-comments');
+  const username = form.elements.username.value;
+  const comment = form.elements.comment.value;
+  const closestParent = form.closest('.modal');
+  const mealId = closestParent.getAttribute('data-id');
+
+  addComment(username, comment, mealId);
+});
+
+document.querySelector('.meals').addEventListener('click', (e) => {
+  const ele = e.target.parentNode.parentNode.parentNode;
+  like(ele);
+  showPopup(e.target);
+});
+
+document.querySelector('.close-popup').addEventListener('click', () => {
+  closePopup();
+});
