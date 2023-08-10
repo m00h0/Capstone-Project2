@@ -31,3 +31,7 @@ document.querySelector('.meals').addEventListener('click', (e) => {
 document.querySelector('.close-popup').addEventListener('click', () => {
   closePopup();
 });
+
+document.querySelector(".mobile-nav").addEventListener('click', () => {
+  document.querySelector('.header').classList.toggle('mobile-menu');
+})
