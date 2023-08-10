@@ -10,6 +10,8 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [🚀 Live Demo](#live-demo)
+    - [ Walkthrough](#walkthrough)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -50,6 +52,15 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+- [Live Demo Link](https://newtonah0.github.io/Microverse-Capstone-1/index.html)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Walkthrough <a name="walkthrough"></a>
+
+- [Zoom Video](https://drive.google.com/file/d/1j0jxw68NcShAoEvubRVvz1NdmdHN4n5i/view?usp=sharing)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="start-project"></a>
 
