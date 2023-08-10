@@ -25,6 +25,7 @@ const fetchDataInvolvementApi = async () => {
 
 const closePopup = () => {
   document.querySelector('.modal').classList.remove('showModal');
+  document.querySelector('.bg-blur').classList.remove('show-blur');
 };
 
 const getComment = async (mealId) => {
@@ -40,6 +41,11 @@ const getComment = async (mealId) => {
     })
     .catch((err) => err);
   return data;
+};
+
+const commentsCounter = async (mealId) => {
+  const data = await getComment(mealId);
+  return data.length;
 };
 
 const addComment = async (username, comment, mealId) => {
@@ -80,6 +86,8 @@ const showPopup = async (ele) => {
     const mealId = ele.parentNode.getAttribute('data-id');
     const modal = document.querySelector('.modal');
     modal.classList.add('showModal');
+    const blur = document.querySelector('.bg-blur');
+    blur.classList.add('show-blur');
     modal.setAttribute('data-id', mealId);
     const data = await fetchDataBaseApi(mealId);
     const meal = data.meals[0];
@@ -110,13 +118,15 @@ const showPopup = async (ele) => {
       ingredientList.appendChild(li);
     });
 
+    // const nbCmt = await commentsCounter(mealId);
     const comments = await getComment(mealId);
+    const cmtContainer = document.querySelector('.list-comment');
+    cmtContainer.innerHTML = '';
+    document.querySelector('.nb-comment').innerHTML = '0 Comments';
     if (comments !== '') {
       document.querySelector(
         '.nb-comment',
       ).textContent = `${comments.length} comments`;
-      const cmtContainer = document.querySelector('.list-comment');
-      cmtContainer.innerHTML = '';
       comments.forEach((comment) => {
         const cmt = document.createElement('p');
         cmt.setAttribute('class', 'comment-item');
@@ -140,6 +150,10 @@ const addLike = async (ele) => {
         ) {
           const nbLike = ele.getElementsByClassName('meal-likes')[0];
           nbLike.textContent = meal.likes;
+          const likeIcon = ele.getElementsByClassName('meal-icon')[0];
+          if (meal.likes > 0) {
+            likeIcon.style.color = '#ed3029';
+          }
         }
       });
     })
@@ -186,19 +200,25 @@ const display = async () => {
             <div class="meal-text">
                 <p class="meal-title">${meal.strMeal}</p>
                 <div class="meal-icon-container">
-                    <ion-icon class="meal-icon" name="heart-outline"></ion-icon><span class='meal-likes'>${nLike}</span>
+                    <ion-icon class="meal-icon" name="heart"></ion-icon><span class='meal-likes'>${nLike}</span>
                 </div>
             </div>
             <a class="meal-btn" href="#" alt="comment button">Comment</a>
       `;
+
     const mealItem = document.createElement('div');
     mealItem.setAttribute('class', 'meal--item');
     mealItem.setAttribute('data-id', meal.idMeal);
     mealItem.innerHTML = mealel;
+    const likeIcon = mealItem.getElementsByClassName('meal-icon')[0];
+    if (nLike > 0) {
+      likeIcon.style.color = '#ed3029';
+    }
+
     document.querySelector('.meals').appendChild(mealItem);
   });
 };
 
 export {
-  display, addComment, closePopup, like, showPopup,
+  display, addComment, closePopup, like, showPopup, commentsCounter,
 };
