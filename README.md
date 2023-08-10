@@ -52,7 +52,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- [Live Demo Link](https://newtonah0.github.io/Microverse-Capstone-1/index.html)
+- [Live Demo Link](https://newtonah0.github.io/Capstone-Project2/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
