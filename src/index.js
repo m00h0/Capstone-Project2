@@ -18,7 +18,7 @@ document.querySelector('.add-comments').addEventListener('submit', (e) => {
   const comment = form.elements.comment.value;
   const closestParent = form.closest('.modal');
   const mealId = closestParent.getAttribute('data-id');
-
+  form.reset();
   addComment(username, comment, mealId);
 });
 
