@@ -61,6 +61,11 @@ const getComment = async (mealId) => {
   return data;
 };
 
+const mealsCounter = async () => {
+  const data = await fetchDataBaseApi();
+  return data.meals;
+};
+
 const commentsCounter = async (mealId) => {
   const data = await getComment(mealId);
   return data.length;
@@ -136,7 +141,6 @@ const showPopup = async (ele) => {
       ingredientList.appendChild(li);
     });
 
-    // const nbCmt = await commentsCounter(mealId);
     const comments = await getComment(mealId);
     const cmtContainer = document.querySelector('.list-comment');
     cmtContainer.innerHTML = '';
@@ -204,6 +208,7 @@ const display = async () => {
   const data = await fetchDataBaseApi();
   const data2 = await fetchDataInvolvementApi();
   const { meals } = data;
+  document.querySelector('.nav__link:first-child').textContent = `(${meals.length}) Meals`;
   meals.forEach((meal) => {
     let nLike = '';
     data2.forEach((item) => {
@@ -238,5 +243,5 @@ const display = async () => {
 };
 
 export {
-  display, addComment, closePopup, like, showPopup, likeCounter, commentsCounter,
+  display, addComment, closePopup, like, showPopup, likeCounter, commentsCounter, mealsCounter,
 };
