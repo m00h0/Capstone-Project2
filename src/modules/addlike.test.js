@@ -1,13 +1,9 @@
-const checke = require('./addlike.js');
+import likeCounter from './addlike.js';
 
-test('add function', () => {
-  document.body.innerHTML = `
-      <div class='todo-list'>
-      </div>
-    `;
-  test();
-  const tasks = document.querySelectorAll('.todo-list .task');
-  expect(tasks).toHaveLength(1);
+describe('test likes counter function', () => {
+  test('calculate the number of likes for each meal item', async () => {
+    const mealId = '52835';
+    const nblike = await likeCounter(mealId);
+    expect(nblike).toBe(3);
+  });
 });
-
-checke();
