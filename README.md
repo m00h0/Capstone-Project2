@@ -58,7 +58,7 @@
 
 ## Walkthrough <a name="walkthrough"></a>
 
-- [Zoom Video](https://drive.google.com/file/d/1j0jxw68NcShAoEvubRVvz1NdmdHN4n5i/view?usp=sharing)
+- (Coming Soon)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
