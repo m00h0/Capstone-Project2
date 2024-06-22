@@ -75,7 +75,7 @@ In order to run this project you need: Run Linters
 
 Clone this repository to your desired folder:
 
-https://github.com/newtonah0/Capstone-Project2.git
+https://github.com/m00h0/Capstone-Project2.git
 
 ### Install
 
