@@ -109,7 +109,7 @@ npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standa
 
 👤 **Ahmed**
 
-- GitHub: [@githubhandle](https://github.com/newtonah0)
+- GitHub: [@m00h0](https://github.com/m00h0)
 
 👤 **Rida**
 
