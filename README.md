@@ -113,7 +113,7 @@ npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standa
 
 👤 **Rida**
 
-- GitHub: [@githubhandle](https://github.com/AjroudiRida)
+- GitHub: [@AjroudiRida](https://github.com/AjroudiRida)
 
 
 ## 🔭 Future Features <a name="future-features"></a>
