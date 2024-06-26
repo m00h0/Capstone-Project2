@@ -139,7 +139,7 @@ If you like this project give me star
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank My Coding Partner.
+I would like to thank My Coding Partner and Microverse Team.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 📝 License <a name="license"></a>
