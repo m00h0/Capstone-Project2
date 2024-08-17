@@ -26,7 +26,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [SEA STAR Catch & Grill] <a name="SEA STAR Catch & Grill"></a>
+# 📖 [SEA STAR Catch & Grill] <a name="about-project"></a>
 
 
 
