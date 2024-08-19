@@ -32,11 +32,11 @@
 
 **[SEA STAR Catch & Grill]** Resturant Website.
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With <a name="tech-stack"></a>
 
 
 <details>
-  <summary>Client</summary>
+  <summary>Client <a name="built-with"></a></summary>
   <ul>
     <li><a href="#">HTML</a></li>
     <li><a href="#">CSS</a></li>
