@@ -52,7 +52,9 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- [Live Demo Link](https://m00h0.github.io/Capstone-Project2/dist/)
+### live-demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://m00h0.github.io/Capstone-Project2/dist/)  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
