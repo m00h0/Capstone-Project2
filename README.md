@@ -14,7 +14,7 @@
     - [ Walkthrough](#walkthrough)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
+  - [Prerequisites](#getting-started)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
