@@ -73,7 +73,7 @@ In order to run this project you need: Run Linters
 - [ ] (VsCode)
 
 
-### Setup   <a name="setup"></a>
+### Setup     <a name="setup"></a>
 
 Clone this repository to your desired folder:
 
@@ -86,7 +86,7 @@ Install this project with:
 
 Node.js.
 
-### Usage
+### Usage     <a name="usege"></a>
 
 To run the project, execute the following command: 
 
