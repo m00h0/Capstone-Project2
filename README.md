@@ -95,7 +95,7 @@ npm install --save-dev hint@7.x
 
 
 
-### Run tests
+### Run tests  <a name="run-tests"></a>
 
 To run tests, run the following command:
 
