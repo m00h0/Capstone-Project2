@@ -20,7 +20,7 @@
   - [Run tests](#run-tests)
   - [Deployment](#deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
+- [🔭 Future Features](#features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -118,7 +118,7 @@ npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standa
 - GitHub: [@AjroudiRida](https://github.com/AjroudiRida)
 
 
-## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Future Features <a name="features"></a>
 
 - [ ] **[New Mobile Meun]**
 
