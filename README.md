@@ -47,7 +47,7 @@
 ### Key Features <a name="key-features"></a>
 
 
-- **[SEA STAR Catch & Grill]**
+- **SEA STAR Catch & Grill**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
