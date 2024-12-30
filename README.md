@@ -119,7 +119,7 @@ npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standa
 
 ## 🔭 Future Features <a name="features"></a>
 
-- [ ] **[New Mobile Meun]**
+- [ ] **New Mobile Menu**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
