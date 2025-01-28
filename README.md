@@ -29,7 +29,7 @@
 
 
 
-**[SEA STAR Catch & Grill]** Resturant Website.
+**[SEA STAR Catch & Grill]** is a restaurant website designed to showcase the offerings of the Sea Star Catch & Grill restaurant, Built using HTML, CSS, and JavaScript, the project provides an engaging and informative online presence for the restaurant, featuring key information about the menu, services, and contact details.
 
 ## 🛠 Built With <a name="built-with"></a>
 
